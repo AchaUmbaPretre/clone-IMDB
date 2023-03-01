@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('./static/Nunito-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'NunitoMedium';
+  src: url('./static/Nunito-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'NunitoBold';
+  src: url('./static/Nunito-Bold.ttf');
+}
+@font-face {
+  font-family: 'NunitoExtraBold';
+  src: url('./static/Nunito-ExtraBold.ttf');
+}
+
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  background: black;
+  color: #fff;
+}
+a{text-decoration: none;}
+li{list-style: none;}

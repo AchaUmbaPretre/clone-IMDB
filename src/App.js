@@ -39,15 +39,7 @@ function App() {
   ])
   return (
     <div className='app'>
-      {/*< Router>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/movie/:Id' element={<h1>iD PAGE</h1>} />
-          <Route path='/movies/:type' element={<MovieType/>}/>
-        </Routes>
-      </Router> */}
       <RouterProvider router={router} />
-
     </div>
   );
 }
